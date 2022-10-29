@@ -38,10 +38,10 @@ CREATE TABLE `contacts` (
 
 INSERT INTO `contacts` (`meta_field`, `meta_value`) VALUES
 ('mobile', '0123456789'),
-('email', 'info@sampple.com'),
-('facebook', 'https://facebook.com/profile'),
-('twitter', ''),
-('linkin', ''),
+('email', 'dhirajdhas.32@gmail.com'),
+('facebook', 'https://www.facebook.com/dhiraj.l.dhas'),
+('twitter', 'https://twitter.com/crazy_dheeraj18'),
+('linkin', 'https://www.linkedin.com/in/dhiraj-dhas-a01a89190/'),
 ('address', 'Sample Address, Sample, Sample, 12345');
 
 -- --------------------------------------------------------
@@ -111,7 +111,7 @@ INSERT INTO `system_info` (`id`, `meta_field`, `meta_value`) VALUES
 (1, 'name', 'Freelance/Portfolio Website Creator'),
 (2, 'address', 'Philippines'),
 (3, 'contact', '+1234567890'),
-(4, 'email', 'info@sample.com'),
+(4, 'email', 'dhirajdhas.32@gmail.com'),
 (6, 'short_name', 'My Website'),
 (9, 'logo', 'uploads/1616118180_aclc.jpg'),
 (11, 'welcome_message', 'I\'m a Web Developer creating awesome and effective Web Applications for companies of all sizes around the globe. Let\'s start scrolling and learn more about me.');
