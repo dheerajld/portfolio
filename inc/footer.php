@@ -11,6 +11,7 @@
                <li><a target ="_blank" href="<?php echo $contact['twitter'] ?>"><i class="fa fa-twitter"></i></a></li>
                <li><a target ="_blank" href="mailto:<?php echo $contact['email'] ?>"><i class="fa fa-google-plus"></i></a></li>
                <li><a target ="_blank" href="<?php echo $contact['linkin'] ?>"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a target="_blank" href="<?php echo $contact['github'] ?>"><i class="fa fa-github"></i></a></li>
             </ul>
 
             <ul class="copyright">

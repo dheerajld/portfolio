@@ -1,7 +1,10 @@
-<?php require_once('config.php'); ?>
+<?php  require_once('config.php'); ?>
  <!DOCTYPE html>
 <html lang="en" class="" style="height: auto;">
-<?php require_once('inc/header.php') ?>
+    
+<?php  require_once('inc/header.php') ?> 
+
+
   <body>
 
    <!-- Header
@@ -41,10 +44,13 @@ while($row = $c_qry->fetch_assoc()){
             <h3><?php echo stripslashes($_settings->info('welcome_message')) ?></h3>
             <hr />
             <ul class="social">
+                
                <li><a target="_blank" href="<?php echo $contact['facebook'] ?>"><i class="fa fa-facebook"></i></a></li>
                <li><a target="_blank" href="<?php echo $contact['twitter'] ?>"><i class="fa fa-twitter"></i></a></li>
                <li><a target="_blank" href="mailto:<?php echo $contact['email'] ?>"><i class="fa fa-google-plus"></i></a></li>
                <li><a target="_blank" href="<?php echo $contact['linkin'] ?>"><i class="fa fa-linkedin"></i></a></li>
+                <li><a target="_blank" href="https://github.com/dheerajld"><i class="fa fa-github"></i></a></li>
+                        
             </ul>
          </div>
       </div>
@@ -64,7 +70,7 @@ while($row = $c_qry->fetch_assoc()){
 
          <div class="three columns">
 
-            <img class="profile-pic"  src="<?php echo validate_image("avatar") ?>" alt="" />
+            <img class="profile-pic"  src="./dist/img/selfiecamera_2017-12-22-17-28-55-099.jpg" alt="" />
 
          </div>
 
@@ -313,7 +319,7 @@ while($row = $c_qry->fetch_assoc()){
                            to do what you believe is great work. And the only way to do great work is to love what you do.
                            If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know.
                            </p>
-                           <cite>Steve Jobs</cite>
+                           <cite>Steve</cite>
                         </blockquote>
                      </li> <!-- slide ends -->
 
